@@ -1,0 +1,36 @@
+.thong-tin-ca-nha-body{
+    .avata{
+        display: flex;
+        .title{
+            margin-bottom: 0.5 rem;
+        }
+        .avata-img{
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+    }
+    .avata>*{
+        margin-top: 0.5rem;
+        margin-right: 1em;
+    }
+    .user-infor{
+        margin-top: 1rem;
+        .form-body{
+            display: flex;
+            justify-content: space-between;
+            .form-left,
+            .form-right{
+                width: 48%;
+            }
+            .form-left>*>*,
+            .form-right>*>*{
+                display: block;
+            }
+            .form-left>*,
+            .form-right>*{
+                margin-bottom: 15px;
+            }
+        }
+    }
+}

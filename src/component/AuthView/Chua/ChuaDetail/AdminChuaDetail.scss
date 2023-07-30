@@ -1,0 +1,21 @@
+.chua-body{
+    .chua-infor{
+        margin-top: 1rem;
+        .form-body{
+            display: flex;
+            justify-content: space-between;
+            .form-left,
+            .form-right{
+                width: 48%;
+            }
+            .form-left>*>*,
+            .form-right>*>*{
+                display: block;
+            }
+            .form-left>*,
+            .form-right>*{
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
